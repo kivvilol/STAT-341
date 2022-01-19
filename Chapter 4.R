@@ -63,7 +63,7 @@ check_regression(result, extra = TRUE)
 # therefore
 #   c > s
 
-# F-test for overal model singificance
+# F-test for overal modell significance
 
 # F = ((SSEnaive - SSEreg) / k) / (SSEreg / n-k-1)
 #     - k = # of predictors in model
@@ -219,7 +219,7 @@ VIF(result2)
 #   - standard error is 1.8 times larger than if our variables (weight and horsepower) were completely unrelated to each other
 
 
-## VIG - Variance Inflation Factor
+## VIF - Variance Inflation Factor
 #   - quantifies the increase in SE due to correlation among X's
 
 
@@ -376,7 +376,7 @@ summary(result)
 # 3 separate tests - 3 chances to be wrong - 0.05^3
 # 1 test - chance of making an error is much lower - 0.05
 
-# Also, significance of predictors depends on what else is in the model.  
+# Also, significance of predictors depends on what else is in the model. 
 
 
 
